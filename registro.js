@@ -1,16 +1,18 @@
 let registros = [];
 
-function obtenerusername(arreglo){
-    
+function obtenerUsername(arreglo){
+    var username = document.getElementsById("username").value;
+    registros.push(username);    
 }
+
 function filtrarCorreo(arreglo){
         
 } 
-function agregarRegistro(){
+function agregarRegistro(arreglo){
 
 }
 
 module.exports.registros = registros;
-module.exports.obtenerusername = obtenerusername;
+module.exports.obtenerUsername = obtenerUsername;
 module.exports.filtrarCorreo = filtrarCorreo;
 module.exports.agregarRegistro = agregarRegistro;
